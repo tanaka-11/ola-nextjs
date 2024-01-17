@@ -1,15 +1,20 @@
 import Menu from "@/components/Menu";
+import Head from "next/head";
 
 export default function Home() {
   return (
     <>
-      <h1>@_Tanaka11_ 🎭</h1>
+      <Head>
+        <title>_Tanaka11_</title>
+        <meta name="description" content="Página inicial" />
+      </Head>
+
+      <h1>🚲</h1>
+
       <Menu />
 
-      <main>
-        <h2>Olá Next.js</h2>
-        <h3>Página Inicial</h3>
-      </main>
+      <h2>Olá Next.js</h2>
+      <h3>Página Inicial</h3>
     </>
   );
 }
