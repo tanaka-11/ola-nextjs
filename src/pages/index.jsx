@@ -9,7 +9,7 @@ export default function Home() {
         <meta name="description" content="Página inicial" />
       </Head>
 
-      <h1>🚲</h1>
+      <h1 style={{ textAlign: "center", fontSize: "80px" }}>👹</h1>
 
       <Menu />
 
